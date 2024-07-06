@@ -114,9 +114,11 @@ textarea{
 }
 .singer-title{
     cursor: pointer;
+    background-color: #E68285;
 }
 .singer-details{
     display: none;
+    background-color: #CCCCCC;
 }
 #one{
     display: block;
