@@ -1,0 +1,126 @@
+/*  start global */
+:root{
+ --color-white: #fff;
+ scroll-behavior: auto;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+
+}
+body{
+   margin: 0; 
+}
+a, span{
+    display: inline-block;
+}
+
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: inherit;
+}
+ul{
+    list-style-type: none;
+}
+/*  end global */
+
+/* start home */
+.home{
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    height: 90vh;
+    overflow: hidden;
+    
+}
+.myNav{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 200px;
+    font-size: 1.2rem;
+    height: 120%;
+    background-color: black;
+    padding-top: 2rem;
+    z-index: 999;
+   
+}
+li a:hover, .fa-xmark:hover{
+   color: rgba(214, 46, 51, 0.6);
+}
+.toggling{
+   
+position: absolute;
+top: 50%;
+left: 10px;
+/* left: 300px; */
+    font-size: 1.8rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.header-contact{
+position: relative;
+
+}
+.fa-xmark{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* end home */
+
+/* start count */
+.count{
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.count-inner{
+    border: #fff solid 1px;
+ 
+    color: #fff;
+}
+.icon-item{
+    
+    border: gray solid 1px;
+    transition: all 0.3s;
+    padding: 5px 10px 5px;
+}
+.icon-item:hover{
+    background-color: #D62E33;
+    color: #fff;
+}
+textarea{
+    height: 150px;
+}
+.contact .container{
+
+   
+    padding: 40px;
+
+}
+.singer-title{
+    cursor: pointer;
+}
+.singer-details{
+    display: none;
+}
+#one{
+    display: block;
+}
+#characters{
+    color: #D62E33;
+}
